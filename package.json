@@ -1,0 +1,21 @@
+{
+  "name": "nashboard-client",
+  "description": "Performs checks and sends the results to a Nashboard Server via socket.io.",
+  "version": "0.0.1",
+  "main": "index",
+  "author": {
+    "name": "Dyson Simmons",
+    "email": "<dyson@burnet.edu.au>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyson/nashboard-client.git"
+  },
+  "dependencies": {
+    "socket.io-client": "0.9.x",
+    "nconf": "~0.6.4"
+  },
+  "engines": {
+    "node": ">= 0.8.7"
+  },
+}
